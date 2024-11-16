@@ -205,27 +205,15 @@ expense-tracking-app/
 ## Screenshots
 
 Include any relevant screenshots for login, expense listing, and expense management features. 
+For example:
 
-
-1. **Splash Screen:**
-
-   <img src="splash.png" width="400"/>
-
-2. **Login Screen:**
-
-   <img src="login.png" width="400"/>
-
-3. **SignUp Screen:**
-
-   <img src="signup.png" width="400"/>
-
-4. **Expense List:**
-
-   <img src="expense.png" width="400"/>
-
-5. **Add Expense:**
-
-   <img src="add.png" width="400"/>
+<div style="display: flex; justify-content: space-around;">
+  <img src="splash.png" width="150"/>
+  <img src="login.png" width="150"/>
+  <img src="signup.png" width="150"/>
+  <img src="expense.png" width="150"/>
+  <img src="add.png" width="150"/>
+</div>
 
 ## Contributing
 
