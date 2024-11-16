@@ -42,6 +42,20 @@ The app communicates with a backend API built with **Node.js**, **Express**, and
 2. **Node.js and MongoDB:** Set up the backend with Node.js and MongoDB. The backend API is hosted on Render (or can be run locally).
 3. **Retrofit Client:** The app uses Retrofit for API calls, so you will need a working Retrofit client setup.
 
+## Screenshots
+
+Include any relevant screenshots for login, expense listing, and expense management features. 
+For example:
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="splash.png" width="150"/>
+  <img src="login.png" width="150"/>
+  <img src="signup.png" width="150"/>
+  <img src="expense.png" width="150"/>
+  <img src="add.png" width="150"/>
+</div>
+
+
 ### Clone the Repository
 
 ```bash
@@ -202,18 +216,6 @@ expense-tracking-app/
 └── .gitignore                    # Git ignore file
 ```
 
-## Screenshots
-
-Include any relevant screenshots for login, expense listing, and expense management features. 
-For example:
-
-<div style="display: flex; justify-content: space-around;">
-  <img src="splash.png" width="150"/>
-  <img src="login.png" width="150"/>
-  <img src="signup.png" width="150"/>
-  <img src="expense.png" width="150"/>
-  <img src="add.png" width="150"/>
-</div>
 
 ## Contributing
 
