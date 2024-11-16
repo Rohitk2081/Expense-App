@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9E6E7">
+
+    <!-- Toolbar with a different background color for better contrast -->
+
+    <!-- Total sum TextView -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#07363C"
+        android:elevation="8dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:title="EXPAINSE"
+        android:titleTextColor="#FFFFFF">
+
+
+        <ImageButton
+            android:id="@+id/buttonLogout"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Logout"
+            android:padding="8dp"
+            android:src="@drawable/logout"
+            android:scaleType="centerInside"
+            android:layout_margin="3dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textViewTotalSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Total: ₹0.00"
+        android:textColor="#AE1515"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- RecyclerView for displaying expenses -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textViewTotalSum"
+        android:padding="2dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+
+    <!-- Floating Action Button for adding expenses -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:contentDescription="Add Expense"
+        android:src="@drawable/add"
+        android:tint="@android:color/white"
+        android:backgroundTint="#10A9BC"
+        android:elevation="12dp" />
+</RelativeLayout>

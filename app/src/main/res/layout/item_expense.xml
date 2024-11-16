@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="12dp"
+    android:elevation="6dp"
+    android:padding="12dp"
+    android:background="#FFFFFF"
+    app:cardCornerRadius="17dp"
+    android:radius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Title and Amount Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:paddingBottom="4dp">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp"
+                android:text="Title"
+                android:textColor="#07363C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="₹123.45"
+                android:textColor="#10A9BC"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:text="Description goes here"
+            android:layout_marginLeft="4dp"
+            android:textColor="#555555"
+            android:textSize="15sp" />
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:paddingBottom="8dp"
+            android:text="24th Oct 2024"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <!-- Edit and Delete Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:paddingTop="4dp">
+
+            <Button
+                android:id="@+id/buttonEditExpense"
+                android:layout_width="67dp"
+                android:layout_height="33dp"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#10A9BC"
+
+                android:drawablePadding="4dp"
+                android:padding="8dp"
+                android:text="Edit"
+                android:textColor="#FFFFFF"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/buttonDeleteExpense"
+                android:layout_width="62dp"
+                android:layout_height="37dp"
+                android:backgroundTint="#E91E63"
+
+                android:drawablePadding="4dp"
+                android:padding="8dp"
+                android:text="Delete"
+                android:textColor="#FFFFFF"
+                android:textSize="8sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
