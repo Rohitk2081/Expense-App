@@ -48,11 +48,11 @@ Include any relevant screenshots for login, expense listing, and expense managem
 For example:
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="splash.png" width="150"/>
-  <img src="login.png" width="150"/>
-  <img src="signup.png" width="150"/>
-  <img src="expense.png" width="150"/>
-  <img src="add.png" width="150"/>
+  <img src="splash.png" width="200"/>
+  <img src="login.png" width="200"/>
+  <img src="signup.png" width="200"/>
+  <img src="expense.png" width="200"/>
+  <img src="add.png" width="200"/>
 </div>
 
 
